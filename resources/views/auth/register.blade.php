@@ -66,7 +66,7 @@
                             <div class="col-md-6">
                                 <input id="captcha" class="form-control" name="captcha" >
 
-                                <img class="thumbnail captcha" src="{{ captcha_src('inverse') }}" onclick="this.src='/captcha/inverse?'+Math.random()" title="点击图片重新获取验证码">
+                                <img class="thumbnail captcha" src="{{ captcha_src('default') }}" onclick="this.src='/captcha/default?'+Math.random()" title="点击图片重新获取验证码">
 
                                 @if ($errors->has('captcha'))
                                     <span class="help-block">
