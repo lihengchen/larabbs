@@ -1,14 +1,15 @@
-
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
 /* universal */
 
 body {
     font-family: Hiragino Sans GB, "Hiragino Sans GB", Helvetica, "Microsoft YaHei", Arial,sans-serif;
 }
+
 /* header */
 
 .navbar-static-top {
@@ -18,6 +19,7 @@ body {
     border-top: 4px solid #00b5ad;
     margin-bottom: 40px;
     margin-top: 0px;
+
     .dropdown-menu {
         padding: 0px;
 
@@ -30,9 +32,9 @@ body {
             }
         }
     }
-
 }
 /* Sticky footer styles */
+
 html {
     position: relative;
     min-height: 100% ;
@@ -64,6 +66,7 @@ body {
         }
     }
 }
+
 /* User register page */
 .register-page {
     img.captcha {
@@ -72,19 +75,13 @@ body {
         cursor: pointer;
     }
 }
+
 /* User profile page */
 .users-show-page {
     .user-info {
         .thumbnail {
             margin-bottom: 0px;
         }
-      .meta {
-        font-size: .9em;
-        color: #b3b3b3;
-    }
-    .reply-content {
-        margin: 6px 0;
-    }
     }
 
     .nav-tabs {
@@ -110,9 +107,18 @@ body {
     .pagination {
         margin: 12px 0;
     }
+
+    .meta {
+        font-size: .9em;
+        color: #b3b3b3;
+    }
+    .rpely-content {
+        margin: 6px 0;
+    }
 }
+
 /* Topic Index Page */
-.topics-index-page , .categories-show-page {
+.topics-index-page, .categories-show-page, .root-page {
     .topic-list {
         .nav > li > a {
             position: relative;
@@ -141,6 +147,7 @@ body {
         }
     }
 }
+
 /* Topic Show Page */
 
 @import "topic_body";
@@ -157,6 +164,7 @@ body {
         }
     }
 }
+
 .topic-reply {
     hr {
         margin-top: 16px;
